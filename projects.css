@@ -1,0 +1,64 @@
+.pseudowrapper {
+    border: 1px solid #818D98;
+    margin: 0 auto 20px auto;
+    padding: 1px 10px 8px 10px;
+    max-width: 8in;
+    text-align: left;
+    position: relative;
+}
+
+.thumb {
+    width: 256px;
+    height: 192px;
+    border: 1px solid #AAAAAA;
+    padding: 1px;
+    display: block;
+}
+
+.item {
+    font-size: 13px;
+    clear: left;
+    display: block;
+    text-decoration: none;
+    height: 196px;
+    margin-bottom: 1em;
+
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -webkit-transition: opacity 0.16s linear;
+    -moz-transition: opacity 0.16s linear;
+    -o-transition: opacity 0.16s linear;
+    -ms-transition: opacity 0.16s linear;
+    transition: opacity 0.16s linear;
+}
+
+.item br {
+    display: none;
+}
+
+.item .thumb {
+    float: left;
+}
+
+.item .desc {
+    display: block;
+    margin-left: 271px;
+    padding-top: 10px;
+    color: #000000;
+}
+
+.item .desc strong {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.item .desc em {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 9pt;
+}
+
+a.item:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}

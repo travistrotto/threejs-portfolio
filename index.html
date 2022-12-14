@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="jobs.css">
+    <link rel="stylesheet" href="projects.css">
+    <script src="jobs.js"></script>
+    <script type="module" src="three.js"></script>
+    <title>Travis Trotto</title>
+    <!--
+
+    -->
+    <!-- Script to display time -->
+    </script>
+    <link rel="stylesheet" href="three.css">
+    <link rel="stylesheet" href="editor.css">
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="frame">
+        <div class="topnav">
+            <h1>Travis Trotto</h1>
+            Portfolio
+            <p>
+                <a href="">Contact</a>
+                <a href="">Github</a>
+                <a href="">LinkedIn</a>
+                <a href="">Resume</a>
+            </p>
+        </div>
+
+        <!-- Name + Links -->
+        <div class="sidenav">
+            <div class="bionav">
+                <h1>Travis Trotto</h1>
+                Portfolio
+                <p>
+                    <a href="">Contact</a>
+                    <a href="">Github</a>
+                    <a href="">LinkedIn</a>
+                    <a href="">Resume</a>
+                </p>
+                <!-- <p>
+                            "Software engineer, passionate about creating intuitive and user-friendly technology that
+                            improves people's
+                            lives. Always looking for ways to innovate and push the boundaries of what's possible with code."
+                        </p> -->
+            </div>
+        </div>
+        <div class="main">
+            <!-- About Me -->
+            <div class="spacer-top"><br></div>
+            <div class="wrapper">
+                <!-- mission statement -->
+                <h1> Hi, I'm Travis. I build software and web applications</h1>
+                <p>
+                    I'm a Software engineer thats passionate about creating intuitive and
+                    user-friendly technology that improves
+                    people's lives.
+                    Always looking for ways to innovate and push the boundaries of what's possible with code."
+                </p>
+                <p>
+                    You may also wish to see my resume: it's available at:
+                    <a href="google.com">travistrotto.com/TravisTrottoResume.pdf</a>.
+                </p>
+            </div>
+            <div class="spacer"><br></div>
+            <!-- Work Experience -->
+            <div class="wrapper">
+                <h2>Work Experience</h2>
+                <div class="table-container">
+                    <ul class="job-titles">
+
+                        <li class="job-title" onclick="showDescription(0)">Apple</li>
+                        <li class="job-title" onclick="showDescription(1)">Lifestyles</li>
+                        <li class="job-title" onclick="showDescription(2)">Freelance</li>
+
+                    </ul>
+                    <div class="job-descriptions">
+                        <div class="job-description" id="description-0" style="display:block">Job Description 1
+                        </div>
+                        <div class="job-description" id="description-1" style="display:none">Job Description 2</div>
+                        <div class="job-description" id="description-2" style="display:none">Job Description 3</div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="spacer"><br></div>
+            <!-- Projects ive Created -->
+            <div class="wrapper">
+                <h2> Projects I've Created</h2>
+                <p>These are projects that are completely or mostly my work - since some of them are open-source
+                    projects,
+                    others have
+                    contributed various things, but everything major was done by me.</p>
+                <div>
+                    <a class="item" href="" target="" _blank">
+                        <img class="thumb" src="preview_ps.png" alt="">
+                        <br>
+                        <span class="desc">
+                            <strong>Atomic Radiation Theme
+                                <em>https://ar-theme.netlify.app</em>
+                            </strong>
+                            An electric lime & light gray theme,
+                            created for VS Code, Sublime Text and more.
+                        </span>
+                        <span class="desc">
+                            Theme designed in command line using yeoman. Website built using three.js, HTML and
+                            CSS.
+                        </span>
+                        <span class="desc">
+                            Open-source theme and website on github.
+                        </span>
+                    </a>
+                </div>
+                <div>
+                    <a class="item" href="" target="" _blank">
+                        <img class="thumb" src="preview_ps.png" alt="">
+                        <br>
+                        <span class="desc">
+                            <strong>Pokemon Showdown
+                                <em>pokemonshowdown.com</em>
+                            </strong>
+                            By far my largest project. An online Pokemon battle simulator.
+                        </span>
+                        <span class="desc">
+                            Did everything: UI, graphics engine, game engine, website, authentication system, and
+                            scaled
+                            it up
+                            to handle thousands
+                            of concurrent users.
+                        </span>
+                        <span class="desc">
+                            9 million visits/month, 20000 peak concurrent users, 1300 GitHub forks.
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="spacer"><br></div>
+            <!-- Projects I've contributed to -->
+            <div class="wrapper">
+                <h2>Projects I've contributed to</h2>
+                <div>
+                    <a href="" target="_blank" class="item">
+                        <img src="" alt class="thumb">
+                        <br>
+                        <span class="desc">
+                            <strong>Warzone 2100<em>wz2100.net</em></strong>
+                            " A real-time strategy game where the player commands the forces of "The Project" in a
+                            battle to
+                            rebuild the world. "
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <p class="copyright"> © Travis Trotto 2022</p>
+        </div>
+
+        <!-- three.js -->
+        <div id="result"><canvas></canvas></div>
+
+</body>
+
+</html>

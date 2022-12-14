@@ -1,0 +1,142 @@
+/* --ignore-- */
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    margin: 0;
+    /* padding: 20px; */
+    /* text-align: center; */
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    /* font-size: 11pt; */
+    /* padding: 20px; */
+    box-sizing: border-box;
+}
+
+/* Footer Container */
+section {
+    position: absolute;
+    bottom: 1vh;
+    margin: auto;
+    text-overflow: wrap;
+}
+
+/* background color (behind 3D) */
+body {
+    margin: 0;
+    background-color: white;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 33%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: white; */
+    overflow-x: hidden;
+    padding-top: 5ch;
+    font-family: Arial, Tahoma, Verdana, sans-serif;
+    /* font-size: 14pt; */
+    color: #818D98;
+}
+
+.bionav {
+    margin-top: 15ch;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: block;
+}
+
+.topnav {
+    margin-top: 15ch;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: none;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.main {
+    margin-top: 13ch;
+    margin-right: 3ch;
+    margin-left: 33%;
+    /* Same width as the sidebar + left position in px */
+    padding: 3ch;
+    /* background-color: #f1f1f1c8; */
+    background-color: rgba(245, 245, 245, 0.903);
+    /* background-image: linear-gradient(rgb(234, 234, 234), rgb(193, 193, 193)); */
+    border-radius: 3ch;
+    height: fit-content;
+
+}
+
+.wrapper {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 4ch;
+    padding-right: 4ch;
+    font-size: 18px;
+}
+
+.spacer-top {
+    /* padding-top: 30%; */
+}
+
+.spacer {
+    padding-top: 50%;
+}
+
+.wrapper>h2 {
+    color: #818D98;
+    font-size: 13pt;
+    font-weight: bold;
+    font-style: normal;
+}
+
+a {
+    color: #3A416B;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #445599;
+}
+
+.copyright {
+    text-align: center;
+    color: #999999;
+    font-size: 10pt;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.editor {
+    padding: 3ch;
+    margin: 0;
+    background-color: #f1f1f1;
+    border-radius: 3ch;
+    width: 66%;
+    height: 100vh;
+    border: 1px solid gray;
+    overflow: scroll;
+}
